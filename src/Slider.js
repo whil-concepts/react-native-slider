@@ -265,7 +265,7 @@ export default class Slider extends PureComponent {
     const limitTrackStyle = {
       position: 'absolute',
       width: limitBarWidth,
-      height: 5,
+      height: 3,
       opacity: 0.7,
       backgroundColor: limitTrackTintColor,
       ...valueVisibleStyle,
